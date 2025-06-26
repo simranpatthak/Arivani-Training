@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #D8C4B6;
+}
+.content-table{
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    text-align: center;
+    margin-top: 35px;
+    background-color:#9BBEC8 ;
+    color: #1A3636;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    
+}
+h1{
+    text-align: center;
+    color: #164863;
+    margin-top: 45px;
+}
+td{
+    border: 1px solid #427D9D;
+}
+

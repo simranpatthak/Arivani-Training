@@ -1,0 +1,18 @@
+
+
+.demo3{
+    width: 20%;
+    height: 60px;
+    background-color: lightpink;
+    border-radius: 25px;
+    text-align: center;
+    color: purple;
+    
+}
+
+.main {
+  border: 1px solid purple;
+  width: 50%;
+  height: 80px;
+  overflow: scroll;
+}

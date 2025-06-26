@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>1. Document.write method will overlap whole html page</h1>
+    <p>CLick the button</p>
+
+    <h1 id="demo" style="color: darkcyan">Hey there this is day 2</h1>
+    <button type="button" onclick="document.write(5*8)">Click here</button>
+    <br /><br />
+
+    <h1>2.Window.print method will allow you to take a print of the page</h1>
+    <h2 class="demo2" style="color: darkgoldenrod">Window.print() method</h2>
+    <p>Click the button to print the page👇</p>
+    <button type="button" onclick="window.print()">Click here</button>
+    <br /><br />
+
+    <h1>3.Onmousemove will change the color of div as you put pointer</h1>
+
+    <div onmousemove="bigImg(this)" onmouseout="smallImage(this)" class="demo3">
+      Move cursor
+    </div>
+    <br /><br />
+
+    <h1>4.The onscroll function</h1>
+    <div class="main" onscroll="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo
+      voluptatum dicta minima ullam, Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Sint explicabo voluptatum dicta minima ullam, Lorem
+      ipsum dolor sit amet consectetur adipisicing elit. Sint explicabo
+      voluptatum dicta minima ullam, quidem quisquam culpa delectus? Modi magni
+      similique dolorem voluptate sequi neque sed, commodi possimus repellendus
+      blanditiis.
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

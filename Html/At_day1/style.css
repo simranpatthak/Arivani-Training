@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.nav-bar{
+    width: 80%;
+    height: 35px;
+    background-color: rgb(207, 50, 102);
+    margin: auto;
+}
+h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.div{
+    width: 30%;
+    height: 9%;
+    /* background-color: aqua; */
+    color: darkgoldenrod;
+    position: absolute;
+    margin-top :7%;
+    text-align: center;
+}
+
+.card-container{
+    width: 87%;
+    height: 60vh;
+    background-color: whitesmoke;
+    margin: auto ;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-container .card-1{
+    width: 23%;
+    height: 95%;
+     border-radius: 25px;
+    background-color: rgb(6, 125, 158);
+    
+}
+
+.card-1 img{
+    width: 98%;
+    height: 93%;
+    margin-left: 3px;
+    border-radius: 25px;
+}
+h2{
+    color: darkgray;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+.common{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container .card-4{
+    width: 23%;
+    height: 95%;
+    border-radius: 25px;
+    background-color: rgb(63, 35, 2);
+    
+}
+.card-4 img{
+    width: 98%;
+    height: 93%;
+    margin-left: 3px;
+    border-radius: 25px;
+}
+h2{
+    color: darkgray;
+    font-family:'Courier New', Courier, monospace;
+   
+}
+.card-container .card-2{
+    width: 23%;
+    height: 95%;
+    border-radius: 25px;
+    background-color: rgb(87, 2, 62);
+    
+}
+.card-2 img{
+    width: 98%;
+    height: 93%;
+    margin-left: 3px;
+    border-radius: 25px;
+}
+h2{
+    color: darkslategray;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+     
+}
+.card-container .card-3{
+    width: 23%;
+    height: 95%;
+    border-radius: 25px;
+    background-color: rgb(4, 85, 120);
+   
+}
+.card-3 img{
+    width: 98%;
+    height: 93%;
+    margin-left: 3px;
+    border-radius: 25px;
+}
+.container5{
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+}
+h1
+{
+    text-align: center;
+    margin-top:20%;
+    color: darkgoldenrod;
+    
+}
+button{
+    width: 50%;
+    height: 25px;
+    background-color: brown;
+    border: none;
+    margin-left: 65px;
+    margin-top: 5px;
+    color: white;
+}
+
+
+
+
