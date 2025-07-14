@@ -41,6 +41,8 @@ function fun1(parameter1 ="simran", parameter2="pathak"){
 fun1("Hello", "Javascript")
 
 
-// this key word in normal function and in arrow function
+// Arrow function
 
-function
+const getdata=()=>{
+    return
+}
