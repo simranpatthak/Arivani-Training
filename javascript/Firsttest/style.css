@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: 	#3b5998;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    margin-left: 25%;
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+.profile-body{
+    width: 50%;
+    height: 60vh;
+    margin-left: 25%;
+    margin-top: 3%;
+    border-radius: 25px;
+    background-color:white;
+}
+h1{
+    padding: 10px;
+    color:#3b5998;
+}
+p{
+   width: 97%;
+   height: 51%;
+   padding: 10px;
+   font-size: 22px;
+   color: #393E46;
+   background-color:#f7f7f7; 
+   border-radius: 20px;
+}
+button{
+    background-color: #3b5998;
+    border: none;
+    width: 10%;
+    height: 30px;
+    color: whitesmoke;
+    margin-left:1%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+span{
+    color: #3b5998;
+}
+
+
+
+
+

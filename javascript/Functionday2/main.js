@@ -103,6 +103,19 @@ function opreation (num1, num2, callback){
 opreation(10,3, add)
 opreation (7,2,sub)
 
+// HOF (higher order function)
+
+function opreation(callback){
+  console.log("hey from task one");
+  callback();
+}
+
+function task2(){
+    console.log("hey fron task 2");
+}
+
+opreation(task2)
+
 
 
 
